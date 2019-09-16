@@ -2,7 +2,7 @@
   "name": "Happy Shibe",
   "short_name": "Happy Shibe",
   "lang": "en-GB",
-  "start_url": "/",
+  "start_url": "/PWA.HappyShibe/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#5270ff",
