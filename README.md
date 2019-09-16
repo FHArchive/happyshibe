@@ -1,26 +1,26 @@
 <p float="left">
-<img src="https://img.shields.io/github/languages/top/fredhappyface/repo-name.svg?style=flat-square" alt="Github top language">
-<img src="https://img.shields.io/codacy/grade/codacy-id.svg?style=flat-square" alt="Codacy grade">
-<img src="https://img.shields.io/codacy/coverage/codacy-id.svg?style=flat-square" alt="Codacy coverage">
-<img src="https://img.shields.io/github/repo-size/fredhappyface/repo-name.svg?style=flat-square" alt="Repository size">
-<img src="https://img.shields.io/github/issues/fredhappyface/repo-name.svg?style=flat-square" alt="Issues">
-<img src="https://img.shields.io/github/license/fredhappyface/repo-name.svg?style=flat-square" alt="License">
-<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/repo-name.svg?style=flat-square" alt="Commit activity">
-<img src="https://img.shields.io/github/last-commit/fredhappyface/repo-name.svg?style=flat-square" alt="Last commit">
+<img src="https://img.shields.io/github/languages/top/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Github top language">
+<img src="https://img.shields.io/codacy/grade/0662a0b4ea1d4e94b56ef44cdb3401d5.svg?style=flat-square" alt="Codacy grade">
+<img src="https://img.shields.io/codacy/coverage/0662a0b4ea1d4e94b56ef44cdb3401d5.svg?style=flat-square" alt="Codacy coverage">
+<img src="https://img.shields.io/github/repo-size/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Repository size">
+<img src="https://img.shields.io/github/issues/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Issues">
+<img src="https://img.shields.io/github/license/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="License">
+<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Commit activity">
+<img src="https://img.shields.io/github/last-commit/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Last commit">
 </p>
 
 
-# repo-name
+# PWA.HappyShibe
 
-desc
+The happyshibe app. Simple frontend web-app meant as a bit of fun
 
-Find the site on https://FredHappyface.github.io/repo-name
+Find the site on https://FredHappyface.github.io/PWA.HappyShibe
 
 <img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
 
 ## Language information
-repo-name is built with HTML5, CSS3 and JavaScript
+PWA.HappyShibe is built with HTML5, CSS3 and JavaScript
 
 ## Changelog
 
