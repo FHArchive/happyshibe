@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://fredhappyface.github.io/css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+				navigator.serviceWorker.register("/PWA.HappyShibe/sw.js", {scope: "/PWA.HappyShibe/"}).then(
+					function (registration) {
+						// Registration was successful
+						console.log("ServiceWorker registration successful with scope: ", registration.scope);
+					},
+					function (err) {
+						// registration failed :(
+						console.log("ServiceWorker registration failed: ", err);
+					});
+			});
+		}
+
+		var DEFAULT = {
+			theme: 'auto',
+			text: '1',
+		};
+
+		var data;
+		/* read data from local storage */
+		if (localStorage.getItem('com.fredhappyface') !== null) {
+			data = JSON.parse(localStorage.getItem('com.fredhappyface'));
+		}
+		else {
+			console.log('Your Browser does not support local storage or no data saved. Loading default data.');
+			data = DEFAULT;
+		}
+
+		// set the theme to the appropriate css
+		document.head.innerHTML += '<link rel="stylesheet" href="https://fredhappyface.github.io/css/theme/' + data.theme + '.css"  id="theme">';
+
+		// set the text size
+		var declaration = document.styleSheets[0].cssRules[0].style;
+		declaration.setProperty("--text-mod", data.text)
+	</script>
+
+	<meta name="Description" content="Author: FredHappyface; Category: Cryptography,
+	Proof of concept; Cost: Free">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--Android app icon-->
+	<link rel="manifest" href="/PWA.HappyShibe/manifest.json">
+	<meta name="theme-color" content="#000000" />
+
+	<!--iOS touch icon-->
+	<link rel="apple-touch-icon" href="images/appicons/apple-icon-180x180.png">
+
+	<!--Bookmark, Browser favicon-->
+	<link rel="icon" type="image/png" sizes="512x512" href="images/appicons/android-icon-512x512.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/appicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/appicons/favicon-16x16.png">
+
+	<!--Windows 8, 10 tile -->
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/appicons/ms-icon-150x150.png">
+	<meta name="msapplication-starturl" content="/index.html">
+
+	<!--Title-->
+	<title>Happy Shibe</title>
+
+
+</head>
+
+<body>
+
+
+	<div class="section-nav c-app-bar">
+
+		<div class="app-bar">
+			<div class="section__content">
+				<div class="left">
+					<h2>Happy Shibe</h2>
+				</div>
+				<div class="pair pair--item right">
+					<a href="https://fredhappyface.github.io/PWA.Home/info.html">
+						<div class="img img--scale app__icon" style="width: 2.5em;">
+							<img src="images/pageicons/round-info-white-24px.svg" alt="Information">
+						</div>
+					</a>
+					<a href="https://fredhappyface.github.io/PWA.Home/settings.html">
+						<div class="img img--scale app__icon" style="width: 2.5em;">
+							<img src="images/pageicons/round-settings-white-24px.svg" alt="settings">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="navigation-buffer">
+	</div>
+
+	<div id="js-toast" >
+		<div><p id="js-toast__text" class="c-toast"></p></div>
+	</div>
+
+	<div class="section c-secondary">
+		<div class="section__content">
+			<div class="img img--scale left" style="width: 8em;">
+				<img src="images/page/shiba-inu-wide.jpg" alt="Happy Shibe">
+			</div>
+
+			<h1>Select a doggo</h1>
+
+		</div>
+	</div>
+
+	<div class="section c-primary">
+		<div class="section__content">
+			<div class="row ">
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-01.jpg" onclick="showShibe(1)" >
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-02.jpg" onclick="showShibe(2)">
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-03.jpg" onclick="showShibe(3)">
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-04.jpg" onclick="showShibe(4)">
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-05.jpg" onclick="showShibe(5)">
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-06.jpg" onclick="showShibe(6)">
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-07.jpg" onclick="showShibe(7)">
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-08.jpg" onclick="showShibe(8)">
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-09.jpg" onclick="showShibe(9)">
+					</div>
+					<div class="icon icon--shibe">
+							<img src="images/page/happyshibe/thumbnails/shibe-10.jpg" onclick="showShibe(10)">
+					</div>
+
+				</div>
+
+		</div>
+	</div>
+
+	<div class="section c-secondary" id="js-card">
+			<div class="section__content">
+
+
+			</div>
+		</div>
+
+	<script src="scripts/happyshibe.js"></script>
+
+
+	<script src="https://fredhappyface.github.io/scripts/script.js"></script>
+
+
+</body>
+
+</html>
