@@ -12,11 +12,11 @@
 
 # PWA.HappyShibe
 
+<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
+
 The happyshibe app. Simple frontend web-app meant as a bit of fun
 
 Find the site on https://FredHappyface.github.io/PWA.HappyShibe
-
-<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
 
 
 ## Language information
