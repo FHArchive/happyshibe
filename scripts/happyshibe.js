@@ -26,7 +26,7 @@ let shibeStats = [
 function formatDoubleDp(double, dp){
 	double = double.toString().split(".");
 	let res = "0"
-	if (double[1] != undefined){
+	if (double.length > 1){
 		res = double[1].slice(0,dp);
 	}
 	else{

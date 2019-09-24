@@ -5,7 +5,7 @@
   "start_url": "/PWA.HappyShibe/",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#5270ff",
+  "theme_color": "#cda780",
   "icons": [
     {
       "src": "/PWA.HappyShibe/images/appicons/round-192.png",
