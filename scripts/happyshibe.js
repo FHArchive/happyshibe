@@ -8,7 +8,7 @@ let shibeStats = [
 	{name: "Penelope", colour: "Sandy", age: 12, friendliness: 6, cuteness: 7.5, height: 12, weight: 23, description: "Penelope likes swimming and reading books about horticulture."},
 	{name: "Veronica", colour: "Dusky", age: 10, friendliness: 6.5, cuteness: 6, height: 10, weight: 20, description: "Likes meeting new people and buying things on Ebay."},
 	{name: "Desmond", colour: "Dusky", age: 5, friendliness: 7, cuteness: 6, height: 7, weight: 14, description: "Keeps himself to himself and likes going on long walks on the beach."},
-	{name: "Andrew", colour: "Black", age: 4, friendliness: 7, cuteness: 8, height: 9, weight: 12, description: "Andrew likes Ceilidh bands and impersonating That That members."},
+	{name: "Andrew", colour: "Black", age: 4, friendliness: 7, cuteness: 8, height: 9, weight: 12, description: "Andrew likes Ceilidh bands and impersonating Take That members."},
 	{name: "Bella", colour: "Dusky", age: 9, friendliness: 8.5, cuteness: 6, height: 15, weight: 19, description: "Bella has a cheeky and playful nature, and has a general dislike of formality."},
 	{name: "Bombay", colour: "White", age: 8, friendliness: 7, cuteness: 7, height: 12, weight: 18, description: "Bombay likes flying kites and likes going on holiday to exotic locations."},
 	{name: "Wendy", colour: "White", age: 4, friendliness: 6, cuteness: 8, height: 8, weight: 11, description: "Likes going to the cinema and watching films with a strong leading character."},
