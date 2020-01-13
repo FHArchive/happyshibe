@@ -12,7 +12,7 @@
 
 # PWA.HappyShibe
 
-<img src="readme-assets/icons/proj-icon.png" alt="Project Icon" width="100">
+<img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
 The HappyShibe app. Simple frontend web-app meant as a bit of fun.
 
