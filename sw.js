@@ -1,24 +1,5 @@
-﻿const CACHE = "HappyShibe";
-const precacheFiles = [
-	"/PWA.HappyShibe/",
-	"/PWA.HappyShibe/index.html",
-	"/PWA.HappyShibe/images/appicons/squircle-256.png",
-	"/PWA.HappyShibe/images/page/shiba-inu-wide.jpg",
-
-	"/PWA.HappyShibe/css/main.css",
-	"/PWA.HappyShibe/scripts/happyshibe.js",
-
-	"/css/theme/auto.css",
-	"/css/theme/black.css",
-	"/css/theme/dark.css",
-	"/css/theme/light.css",
-	"/css/main.css",
-	"/css/settings.css",
-	"/scripts/navbar.js",
-	"/scripts/script.js",
-	"/scripts/settings.js",
-	"/fonts/FiraSansNF.woff2"
-
+const CACHE = "HappyShibe";
+const precacheFiles = ["/PWA.HappyShibe/","/PWA.HappyShibe/index.html","/PWA.HappyShibe/images/appicons/squircle-256.png","/PWA.HappyShibe/images/page/shiba-inu-wide.jpg","/PWA.HappyShibe/css/main.css","/PWA.HappyShibe/scripts/happyshibe.js","/css/main.css","/scripts/script.js","/fonts/FiraSansNF.woff2",
 ];
 
 self.addEventListener("install", function (event) {

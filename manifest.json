@@ -1,27 +1,27 @@
 {
-  "name": "Happy Shibe",
-  "short_name": "Happy Shibe",
-  "lang": "en-GB",
-  "start_url": "/PWA.HappyShibe/",
-  "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#cda780",
-  "icons": [
-    {
-      "src": "/PWA.HappyShibe/images/appicons/round-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/PWA.HappyShibe/images/appicons/round-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "/PWA.HappyShibe/images/appicons/mask.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-   ]
+	"name": "HappyShibe",
+	"short_name": "HappyShibe",
+	"lang": "en-GB",
+	"start_url": "/PWA.HappyShibe/",
+	"display": "standalone",
+	"background_color": "#000000",
+	"theme_color": "#cda780",
+	"icons": [
+		{
+			"src": "/PWA.HappyShibe/images/appicons/round-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/PWA.HappyShibe/images/appicons/round-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "/PWA.HappyShibe/images/appicons/mask.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	]
 }

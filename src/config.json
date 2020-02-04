@@ -1,0 +1,41 @@
+{
+	"base": {
+		"projectFullName": "PWA.HappyShibe",
+		"projectShortName": "HappyShibe",
+		"stylesNamespace": "shibe",
+		"projectColour": "#cda780",
+		"isNavigation": false,
+		"precacheFiles": [
+			{
+				"fileName": "PWA.HappyShibe/"
+			},
+			{
+				"fileName": "PWA.HappyShibe/index.html"
+			},
+			{
+				"fileName": "PWA.HappyShibe/images/appicons/squircle-256.png"
+			},
+			{
+				"fileName": "PWA.HappyShibe/images/page/shiba-inu-wide.jpg"
+			},
+			{
+				"fileName": "PWA.HappyShibe/css/main.css"
+			},
+			{
+				"fileName": "PWA.HappyShibe/scripts/happyshibe.js"
+			},
+			{
+				"fileName": "css/main.css"
+			},
+			{
+				"fileName": "scripts/script.js"
+			},
+			{
+				"fileName": "fonts/FiraSansNF.woff2"
+			}
+		]
+	},
+	"files": [
+		"index.sections.html"
+	]
+}
