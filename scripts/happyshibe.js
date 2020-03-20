@@ -38,11 +38,10 @@ function formatDoubleDp(double, dp){
 /*
 show shibe function
 */
-function showShibe(index){
+function showShibe(zeroIndex){
+	let indexStr = formatNumberLength(zeroIndex + 1, 2);
 
-	let indexStr = formatNumberLength(index, 2);
-
-	let thisShibe = shibeStats[index-1];
+	let thisShibe = shibeStats[zeroIndex];
 
 	let name = thisShibe.name;
 	let colour = thisShibe.colour;
@@ -53,5 +52,5 @@ function showShibe(index){
 	let weight = thisShibe.weight;
 	let description = thisShibe.description;
 
-	document.getElementById("js-card").innerHTML = "<h1>Shibe #" + indexStr+ ": "+ name+"</h1><div class=\"img img--content-wide\"><img src=\"images/page/happyshibe/shibe-" + indexStr + ".jpg\" alt=\"Image of Shibe\"></div><table><tr><th  >Attribute</th><th  class=\"r\">Value</th></tr><tr><td>Name:</td><td class=\"r\">" + name + "</td></tr><td>Colour:</td><td  class=\"r\">" + colour + "</td></tr><td>Age (yrs):</td><td  class=\"r\">" + age + "</td></tr><td>Friendliness (/5):</td><td  class=\"r\">" + friendliness + "</td></tr><td>Cuteness (/5):</td><td  class=\"r\">" + cuteness + "</td></tr><td>Height (Inches):</td><td  class=\"r\">" + height + "</td></tr><td>Weight (Pounds):</td><td  class=\"r\">" + weight + "</td></table><p>"+ description +"</p><audio controls><source src=\"sound/happyshibe/shibe.ogg\" type=\"audio/ogg\"><source src=\"sound/happyshibe/shibe.mp3\" type=\"audio/mpeg\"></audio>";
+	document.getElementById("js-card").innerHTML = "<h1>Shibe #" + indexStr+ ": "+ name+"</h1><div class=\"img img--content-wide\"><img src=\"images/page/happyshibe/shibe-" + zeroIndex + ".jpg\" alt=\"Image of Shibe\"></div><table><tr><th  >Attribute</th><th  class=\"r\">Value</th></tr><tr><td>Name:</td><td class=\"r\">" + name + "</td></tr><td>Colour:</td><td  class=\"r\">" + colour + "</td></tr><td>Age (yrs):</td><td  class=\"r\">" + age + "</td></tr><td>Friendliness (/5):</td><td  class=\"r\">" + friendliness + "</td></tr><td>Cuteness (/5):</td><td  class=\"r\">" + cuteness + "</td></tr><td>Height (Inches):</td><td  class=\"r\">" + height + "</td></tr><td>Weight (Pounds):</td><td  class=\"r\">" + weight + "</td></table><p>"+ description +"</p><audio controls><source src=\"sound/happyshibe/shibe.ogg\" type=\"audio/ogg\"><source src=\"sound/happyshibe/shibe.mp3\" type=\"audio/mpeg\"></audio>";
 }
