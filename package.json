@@ -1,0 +1,28 @@
+{
+	"name": "happyshibe",
+	"version": "1.0.0",
+	"description": "",
+	"main": "sw.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fhpwa/happyshibe.git"
+	},
+	"author": "FredHappyface",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/fhpwa/happyshibe/issues"
+	},
+	"homepage": "https://github.com/fhpwa/happyshibe#readme",
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-google": "^0.14.0"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.3",
+		"mustache": "^4.0.1",
+		"request": "^2.88.2"
+	}
+}

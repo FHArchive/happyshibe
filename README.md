@@ -1,22 +1,18 @@
-<p float="left">
-<img src="https://img.shields.io/github/languages/top/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Github top language">
-<img src="https://img.shields.io/codacy/grade/0662a0b4ea1d4e94b56ef44cdb3401d5.svg?style=flat-square" alt="Codacy grade">
-<img src="https://img.shields.io/codacy/coverage/0662a0b4ea1d4e94b56ef44cdb3401d5.svg?style=flat-square" alt="Codacy coverage">
-<img src="https://img.shields.io/github/repo-size/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Repository size">
-<img src="https://img.shields.io/github/issues/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Issues">
-<img src="https://img.shields.io/github/license/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="License">
-<img src="https://img.shields.io/github/commit-activity/m/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Commit activity">
-<img src="https://img.shields.io/github/last-commit/fredhappyface/PWA.HappyShibe.svg?style=flat-square" alt="Last commit">
-</p>
+[![Github top language](https://img.shields.io/github/languages/top/FHPWA/HappyShibe.svg?style=for-the-badge)](../../)
+[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual/FHPWA/HappyShibe)
+[![Repository size](https://img.shields.io/github/repo-size/FHPWA/HappyShibe.svg?style=for-the-badge)](../../)
+[![Issues](https://img.shields.io/github/issues/FHPWA/HappyShibe.svg?style=for-the-badge)](../../issues)
+[![License](https://img.shields.io/github/license/FHPWA/HappyShibe.svg?style=for-the-badge)](/LICENSE.md)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/FHPWA/HappyShibe.svg?style=for-the-badge)](../../commits/master)
+[![Last commit](https://img.shields.io/github/last-commit/FHPWA/HappyShibe.svg?style=for-the-badge)](../../commits/master)
 
-
-# PWA.HappyShibe
+# HappyShibe
 
 <img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
 
 The HappyShibe app. Simple frontend web-app meant as a bit of fun.
 
-Find the site on https://FredHappyface.github.io/PWA.HappyShibe
+Find the site on https://FHPWA.github.io/happyshibe/
 
 
 ## Language information

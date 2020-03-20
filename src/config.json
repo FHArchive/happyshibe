@@ -1,28 +1,28 @@
 {
 	"base": {
-		"projectFullName": "PWA.HappyShibe",
+		"projectFullName": "happyshibe",
 		"projectShortName": "HappyShibe",
 		"stylesNamespace": "shibe",
 		"projectColour": "#cda780",
 		"isNavigation": false,
 		"precacheFiles": [
 			{
-				"fileName": "PWA.HappyShibe/"
+				"fileName": "happyshibe/"
 			},
 			{
-				"fileName": "PWA.HappyShibe/index.html"
+				"fileName": "happyshibe/index.html"
 			},
 			{
-				"fileName": "PWA.HappyShibe/images/appicons/squircle-256.png"
+				"fileName": "happyshibe/images/appicons/squircle-256.png"
 			},
 			{
-				"fileName": "PWA.HappyShibe/images/page/shiba-inu-wide.jpg"
+				"fileName": "happyshibe/images/page/shiba-inu-wide.jpg"
 			},
 			{
-				"fileName": "PWA.HappyShibe/css/main.css"
+				"fileName": "happyshibe/css/main.css"
 			},
 			{
-				"fileName": "PWA.HappyShibe/scripts/happyshibe.js"
+				"fileName": "happyshibe/scripts/happyshibe.js"
 			},
 			{
 				"fileName": "css/main.css"
