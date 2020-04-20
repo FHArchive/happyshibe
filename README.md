@@ -12,7 +12,7 @@
 
 The HappyShibe app. Simple frontend web-app meant as a bit of fun.
 
-Find the site on https://FHPWA.github.io/happyshibe/
+Find the site on https://fredhappyface.com/happyshibe/
 
 
 ## Language information
