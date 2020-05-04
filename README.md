@@ -1,5 +1,5 @@
 [![Github top language](https://img.shields.io/github/languages/top/FHPWA/HappyShibe.svg?style=for-the-badge)](../../)
-[![Codacy grade](https://img.shields.io/codacy/grade/[codacy-proj-id].svg?style=for-the-badge)](https://www.codacy.com/manual/FHPWA/HappyShibe)
+[![Codacy grade](https://img.shields.io/codacy/grade/13ce59c6993c4b2e890b65ee3e54f95b.svg?style=for-the-badge)](https://www.codacy.com/gh/FHPWA/HappyShibe)
 [![Repository size](https://img.shields.io/github/repo-size/FHPWA/HappyShibe.svg?style=for-the-badge)](../../)
 [![Issues](https://img.shields.io/github/issues/FHPWA/HappyShibe.svg?style=for-the-badge)](../../issues)
 [![License](https://img.shields.io/github/license/FHPWA/HappyShibe.svg?style=for-the-badge)](/LICENSE.md)
