@@ -23,5 +23,18 @@
 			"type": "image/png",
 			"purpose": "maskable"
 		}
+	],
+	"shortcuts": [
+		{
+			"name": "Happy Shibe",
+			"url": "/happyshibe/index.html",
+			"icons": [
+				{
+					"src": "/happyshibe/images/shorticons/index.png",
+					"sizes": "192x192",
+					"type": "image/png"
+				}
+			]
+		}
 	]
 }

@@ -1,16 +1,13 @@
 {
 	"base": {
-		"projectFullName": "happyshibe",
-		"projectShortName": "HappyShibe",
+		"projectName": "HappyShibe",
 		"stylesNamespace": "shibe",
+		"namespace": "happyshibe",
 		"projectColour": "#cda780",
 		"isNavigation": false,
 		"precacheFiles": [
 			{
 				"fileName": "happyshibe/"
-			},
-			{
-				"fileName": "happyshibe/index.html"
 			},
 			{
 				"fileName": "happyshibe/images/appicons/squircle-256.png"
