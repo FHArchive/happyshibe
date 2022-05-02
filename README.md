@@ -1,3 +1,24 @@
+========================= No Longer Supported =========================
+
+**This project has reached the end of development and is no longer
+supported**
+
+## What this means now
+
+- The repository, issues, pull requests, labels, milestones, projects, wiki,
+releases, commits, tags, branches, reactions and comments are read-only.
+- The repository can still be forked and cloned - The License still applies.
+
+## What this means in the future
+
+- The repository is scheduled for deletion (the earliest date for this is
+01/11/2022)
+- The repository will be unregistered from Codacy (the earliest date for this is
+01/06/2022)
+- The repository may be un-archived (however, this is very unlikely)
+
+========================= No Longer Supported =========================
+
 [![Github top language](https://img.shields.io/github/languages/top/FHPWA/HappyShibe.svg?style=for-the-badge)](../../)
 [![Codacy grade](https://img.shields.io/codacy/grade/13ce59c6993c4b2e890b65ee3e54f95b.svg?style=for-the-badge)](https://www.codacy.com/gh/FHPWA/HappyShibe)
 [![Repository size](https://img.shields.io/github/repo-size/FHPWA/HappyShibe.svg?style=for-the-badge)](../../)
